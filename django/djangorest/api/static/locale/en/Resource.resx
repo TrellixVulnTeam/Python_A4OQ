@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Average_Cycle_Stats" xml:space="preserve">
+    <value>Average Cycle Stats</value>
+  </data>
+  <data name="Avg" xml:space="preserve">
+    <value>Avg</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="Cycles" xml:space="preserve">
+    <value>Cycles</value>
+  </data>
+  <data name="Cycle_Count" xml:space="preserve">
+    <value>Cycle Count</value>
+  </data>
+  <data name="Cycle_Time" xml:space="preserve">
+    <value>Cycle Time</value>
+  </data>
+  <data name="Cycle_Time_seconds" xml:space="preserve">
+    <value>Cycle Time (seconds)</value>
+  </data>
+  <data name="Daily_Production_Analysis" xml:space="preserve">
+    <value>Daily Production Analysis</value>
+  </data>
+  <data name="Day_Ave" xml:space="preserve">
+    <value>7 Day Ave</value>
+  </data>
+  <data name="Day_Min_Max" xml:space="preserve">
+    <value>7 Day Min/Max</value>
+  </data>
+  <data name="Delayed_Shut_Down_Faults" xml:space="preserve">
+    <value>Delayed (30 sec) Shut Down Faults</value>
+  </data>
+  <data name="Delayed_Stop" xml:space="preserve">
+    <value>Delayed Stop</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Digging_Clean_Up_Wait_Idle" xml:space="preserve">
+    <value>Digging, Clean Up, Wait, Idle</value>
+  </data>
+  <data name="Dig_Time" xml:space="preserve">
+    <value>Dig Time</value>
+  </data>
+  <data name="Dig_Metric" xml:space="preserve">
+    <value>Dig Metric</value>
+  </data>
+  <data name="Dig_Path" xml:space="preserve">
+    <value>Dig Path</value>
+  </data>
+  <data name="Event_Counts_hr" xml:space="preserve">
+    <value>Event Counts/hr</value>
+  </data>
+  <data name="FAULTS" xml:space="preserve">
+    <value>FAULTS</value>
+  </data>
+  <data name="Faults1" xml:space="preserve">
+    <value>Faults</value>
+  </data>
+  <data name="Faults_Statistics" xml:space="preserve">
+    <value>Faults Statistics</value>
+  </data>
+  <data name="Fault_Code" xml:space="preserve">
+    <value>Fault Code</value>
+  </data>
+  <data name="Fault_Count" xml:space="preserve">
+    <value>Fault Count</value>
+  </data>
+  <data name="Fault_Description" xml:space="preserve">
+    <value>Fault Description</value>
+  </data>
+  <data name="Fig1_Cycle_Dig_Swing_Tuck" xml:space="preserve">
+    <value>Fig 1. Cycle = (A)Dig + (B)Swing + (C)Tuck</value>
+  </data>
+  <data name="Instant_Shut_Down_Faults" xml:space="preserve">
+    <value>Instant Shut Down Faults</value>
+  </data>
+  <data name="Instant_Stop" xml:space="preserve">
+    <value>Instant Stop</value>
+  </data>
+  <data name="Key_Statistics" xml:space="preserve">
+    <value>Key Statistics</value>
+  </data>
+  <data name="Machine_Event_Counts" xml:space="preserve">
+    <value>Machine Event Counts</value>
+  </data>
+  <data name="Machine_Productivity" xml:space="preserve">
+    <value>Machine Productivity</value>
+  </data>
+  <data name="Machine_Utilization" xml:space="preserve">
+    <value>Machine Utilization</value>
+  </data>
+  <data name="Maintenance_KPIs" xml:space="preserve">
+    <value>Maintenance KPIs</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Monthly_Event_Counts" xml:space="preserve">
+    <value>Monthly Event Counts</value>
+  </data>
+  <data name="Monthly_Trend" xml:space="preserve">
+    <value>Monthly Trend</value>
+  </data>
+  <data name="Non_Operating_Time" xml:space="preserve">
+    <value>Non-Operating Time</value>
+  </data>
+  <data name="No_Communication_Time" xml:space="preserve">
+    <value>No Communication Time</value>
+  </data>
+  <data name="Operating_Practices_Events_count_hr" xml:space="preserve">
+    <value>Operating Practices Events (count/hr)</value>
+  </data>
+  <data name="Operating_Time" xml:space="preserve">
+    <value>Operating Time</value>
+  </data>
+  <data name="Payload" xml:space="preserve">
+    <value>Payload</value>
+  </data>
+  <data name="Percent_Dipper_Fill" xml:space="preserve">
+    <value>Payload</value>
+  </data>
+  <data name="Percent_Target_Payload" xml:space="preserve">
+    <value>Percent Target Payload</value>
+  </data>
+  <data name="Potential_Cost_Avoidance_Opportunities" xml:space="preserve">
+    <value>Potential Cost Avoidance Opportunities</value>
+  </data>
+  <data name="Potential_Downtime_hr" xml:space="preserve">
+    <value>Potential Downtime(hr)</value>
+  </data>
+  <data name="Potential_Downtime_min" xml:space="preserve">
+    <value>Potential Downtime(min)</value>
+  </data>
+  <data name="Production_Rate" xml:space="preserve">
+    <value>Production Rate</value>
+  </data>
+  <data name="Propel" xml:space="preserve">
+    <value>Propel</value>
+  </data>
+  <data name="Rate_of_Production" xml:space="preserve">
+    <value>Rate of Production</value>
+  </data>
+  <data name="Recommendations" xml:space="preserve">
+    <value>Recommendations</value>
+  </data>
+  <data name="Runtime_Distribution_hours" xml:space="preserve">
+    <value>Runtime Distribution (hours)</value>
+  </data>
+  <data name="Start_Time" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Subsystem" xml:space="preserve">
+    <value>Subsystem</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Swing_Angle_degrees" xml:space="preserve">
+    <value>Swing Angle (degrees)</value>
+  </data>
+  <data name="SWING_IMPACTS" xml:space="preserve">
+    <value>SWING IMPACTS</value>
+  </data>
+  <data name="Swing_Time" xml:space="preserve">
+    <value>Swing Time</value>
+  </data>
+  <data name="Target_Load" xml:space="preserve">
+    <value>Target Load</value>
+  </data>
+  <data name="Target_Payload_Distribution" xml:space="preserve">
+    <value>Target Payload Distribution</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value> Time</value>
+  </data>
+  <data name="Ton" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="Tonne" xml:space="preserve">
+    <value>Tonne</value>
+  </data>
+  <data name="TONNES" xml:space="preserve">
+    <value>TONNES</value>
+  </data>
+  <data name="tonne_hr" xml:space="preserve">
+    <value>(tonne/hr)</value>
+  </data>
+  <data name="TONS" xml:space="preserve">
+    <value>TONS</value>
+  </data>
+  <data name="ton_hr" xml:space="preserve">
+    <value>(ton/hr)</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Total_Cycles" xml:space="preserve">
+    <value>Total Cycles</value>
+  </data>
+  <data name="Total_m3" xml:space="preserve">
+    <value>Total m</value>
+  </data>
+  <data name="Total_Production" xml:space="preserve">
+    <value>Total Production</value>
+  </data>
+  <data name="Total_Ton" xml:space="preserve">
+    <value>Total Ton</value>
+  </data>
+  <data name="Total_Tonne" xml:space="preserve">
+    <value>Total Tonne</value>
+  </data>
+  <data name="Total_yd3" xml:space="preserve">
+    <value>Total yd</value>
+  </data>
+  <data name="Tripped_Time" xml:space="preserve">
+    <value>Tripped Time</value>
+  </data>
+  <data name="Tuck_Time" xml:space="preserve">
+    <value>Tuck Time</value>
+  </data>
+  <data name="UTILIZATION" xml:space="preserve">
+    <value>UTILIZATION</value>
+  </data>
+  <data name="Utilization1" xml:space="preserve">
+    <value>Utilization</value>
+  </data>
+  <data name="Warnings" xml:space="preserve">
+    <value>Warnings</value>
+  </data>
+  <data name="Cycle_Count_Shift" xml:space="preserve">
+    <value>Cycle Count/Shift</value>
+  </data>
+  <data name="Cycle_Time_s" xml:space="preserve">
+    <value>Cycle Time (s)</value>
+  </data>
+  <data name="hr" xml:space="preserve">
+    <value>hr</value>
+  </data>
+  <data name="Millions_of_Ton" xml:space="preserve">
+    <value>Millions of Ton</value>
+  </data>
+  <data name="Millions_of_Tonne" xml:space="preserve">
+    <value>Millions of Tonne</value>
+  </data>
+  <data name="Operating_hr" xml:space="preserve">
+    <value>Operating hr</value>
+  </data>
+  <data name="Time_s" xml:space="preserve">
+    <value>Time (s)</value>
+  </data>
+  <data name="Tonne_100" xml:space="preserve">
+    <value>Tonne/100</value>
+  </data>
+  <data name="Ton_1000" xml:space="preserve">
+    <value>Ton/1000</value>
+  </data>
+  <data name="Tonne_hr1" xml:space="preserve">
+    <value>Tonne/hr</value>
+  </data>
+  <data name="Ton_hr1" xml:space="preserve">
+    <value>Ton/hr</value>
+  </data>
+  <data name="Boom_Jacks" xml:space="preserve">
+    <value>Boom Jacks</value>
+  </data>
+  <data name="Motor_Stalls" xml:space="preserve">
+    <value>Motor Stalls</value>
+  </data>
+  <data name="No_Communications" xml:space="preserve">
+    <value>No Communications</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Tripped" xml:space="preserve">
+    <value>Tripped</value>
+  </data>
+  <data name="Swing_Impacts1" xml:space="preserve">
+    <value>Swing Impacts</value>
+  </data>
+  <data name="Average_Utilization" xml:space="preserve">
+    <value>Average Utilization</value>
+  </data>
+  <data name="Averaged_impacts100_cycles" xml:space="preserve">
+    <value>Averaged Impacts/100 Cycles</value>
+  </data>
+  <data name="Average_operator_boom_jack_rate" xml:space="preserve">
+    <value>Average Operator Boom Jack Rate</value>
+  </data>
+  <data name="Average_operator_motor_stall_rate" xml:space="preserve">
+    <value>Average Operator Motor Stall Rate</value>
+  </data>
+  <data name="Average_operator_swing_impact_rate" xml:space="preserve">
+    <value>Average Operator Swing Impact Rate</value>
+  </data>
+  <data name="Average_percent_dipper_fill" xml:space="preserve">
+    <value>Average  %  Dipper Fill</value>
+  </data>
+  <data name="Average_stalls100_cycles" xml:space="preserve">
+    <value>Average Stalls/100 Cycles</value>
+  </data>
+  <data name="Benchmark_Report_for" xml:space="preserve">
+    <value>Benchmark Report for </value>
+  </data>
+  <data name="BoomLimits" xml:space="preserve">
+    <value>Boom Limits</value>
+  </data>
+  <data name="Boom_jacks100_cycles" xml:space="preserve">
+    <value>Boom Jacks/100 Cycles</value>
+  </data>
+  <data name="Boom_jacks100_cycles_difference_from_average" xml:space="preserve">
+    <value>Boom Jacks/100 Cycles - Difference from Average</value>
+  </data>
+  <data name="Box_height_Line_height" xml:space="preserve">
+    <value>Box height 50%, Line height 90%</value>
+  </data>
+  <data name="Cycles_per_Shift" xml:space="preserve">
+    <value>Cycles per Shift</value>
+  </data>
+  <data name="Daily_Average_Time_Hours" xml:space="preserve">
+    <value>Daily Average Time [Hours]</value>
+  </data>
+  <data name="Day5_Count" xml:space="preserve">
+    <value>5 Day Count</value>
+  </data>
+  <data name="Dig" xml:space="preserve">
+    <value>Dig</value>
+  </data>
+  <data name="Faulted" xml:space="preserve">
+    <value>Faulted</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="Impacts100_cycles_difference_from_average" xml:space="preserve">
+    <value>Impacts/100 Cycles - Difference from Average</value>
+  </data>
+  <data name="Machine_Serial_Number" xml:space="preserve">
+    <value>Machine Serial Number</value>
+  </data>
+  <data name="Motivator" xml:space="preserve">
+    <value>Motivator</value>
+  </data>
+  <data name="MotorStalls100_cycles_difference_from_average" xml:space="preserve">
+    <value>MotorStalls/100 Cycles - Difference from Average</value>
+  </data>
+  <data name="Motor_Stalls100_cycles" xml:space="preserve">
+    <value>Motor Stalls/100 cycles</value>
+  </data>
+  <data name="NoComm" xml:space="preserve">
+    <value>No Comm</value>
+  </data>
+  <data name="NonProdDig" xml:space="preserve">
+    <value>NonProdDig</value>
+  </data>
+  <data name="Non_Operating" xml:space="preserve">
+    <value>Non Operating</value>
+  </data>
+  <data name="No_Communication" xml:space="preserve">
+    <value>No Communication</value>
+  </data>
+  <data name="No_valid_operator_data_for_shovel_s" xml:space="preserve">
+    <value>No valid operator data for shovel(s):</value>
+  </data>
+  <data name="Operating" xml:space="preserve">
+    <value>Operating</value>
+  </data>
+  <data name="Operating_Practices" xml:space="preserve">
+    <value>Operating Practices</value>
+  </data>
+  <data name="Operating_Time_hr" xml:space="preserve">
+    <value>Operating Time(hr)</value>
+  </data>
+  <data name="Operating_Time_per_Shift" xml:space="preserve">
+    <value>Operating Time per Shift</value>
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="Operator_Average_Cycle_Time" xml:space="preserve">
+    <value>Operator Average Cycle Time</value>
+  </data>
+  <data name="Operator_boom_jack_rate_detail" xml:space="preserve">
+    <value>Operator Boom Jack Rate Detail</value>
+  </data>
+  <data name="Operator_motor_stall_rate_detail" xml:space="preserve">
+    <value>Operator Motor Stall Rate Detail</value>
+  </data>
+  <data name="Operator_practices" xml:space="preserve">
+    <value>Operator Practices</value>
+  </data>
+  <data name="Operator_Productivity" xml:space="preserve">
+    <value>Operator Productivity</value>
+  </data>
+  <data name="Operator_swing_impact_rate_detail" xml:space="preserve">
+    <value>Operator Swing Impact Rate Detail</value>
+  </data>
+  <data name="Percent_Dipper_Fill_From_for_Each_Shovel" xml:space="preserve">
+    <value>Percent Dipper Fill From  Average for Each Shovel</value>
+  </data>
+  <data name="PotentialDowntime" xml:space="preserve">
+    <value>Potential Downtime</value>
+  </data>
+  <data name="PowerOnState" xml:space="preserve">
+    <value>Power On State</value>
+  </data>
+  <data name="Seconds_average_each_shovel" xml:space="preserve">
+    <value>Seconds From  Average for Each Shovel</value>
+  </data>
+  <data name="SIIR" xml:space="preserve">
+    <value>SIIR</value>
+  </data>
+  <data name="StartedInTest" xml:space="preserve">
+    <value>Started In Test</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StopOperator" xml:space="preserve">
+    <value>Stop Operator</value>
+  </data>
+  <data name="Swing_Impacts_100_cycles" xml:space="preserve">
+    <value>Swing Impacts/100 cycles</value>
+  </data>
+  <data name="The_Last_2Weeks" xml:space="preserve">
+    <value>The Last 2 Weeks</value>
+  </data>
+  <data name="Trip_Events" xml:space="preserve">
+    <value>Trip Events</value>
+  </data>
+  <data name="Trip_Events_hr" xml:space="preserve">
+    <value>Trip Events/hr*</value>
+  </data>
+  <data name="Trip_Events_per_Operating_hr" xml:space="preserve">
+    <value>Trip Events per 100 Operating hr</value>
+  </data>
+  <data name="Trip_Events_per_Operating_hr_per_Week" xml:space="preserve">
+    <value>Trip Events per 100 Operating hr per Week</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="WaitForTruck" xml:space="preserve">
+    <value>WaitForTruck</value>
+  </data>
+  <data name="Weeks_Ago3" xml:space="preserve">
+    <value>3 Weeks Ago</value>
+  </data>
+  <data name="AM_Shift" xml:space="preserve">
+    <value>AMShift</value>
+  </data>
+  <data name="Event_Counts_Operating_hr" xml:space="preserve">
+    <value>Event Counts\Operating hr</value>
+  </data>
+  <data name="Fault_Analysis" xml:space="preserve">
+    <value>Fault Analysis</value>
+  </data>
+  <data name="PM_Shift" xml:space="preserve">
+    <value>PMShift</value>
+  </data>
+  <data name="Productivity_Cycles_Op_Hours" xml:space="preserve">
+    <value>Productivity(Cycles/op hour)</value>
+  </data>
+  <data name="The_Last_Week" xml:space="preserve">
+    <value>The Last Week</value>
+  </data>
+  <data name="Week_Ago" xml:space="preserve">
+    <value>1 Week Ago</value>
+  </data>
+  <data name="Cycle_Op_Hr" xml:space="preserve">
+    <value>Cycles/Op Hr</value>
+  </data>
+  <data name="All_Shovels" xml:space="preserve">
+    <value>All Shovels</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="End_Date_Time" xml:space="preserve">
+    <value>End DateTime</value>
+  </data>
+  <data name="Internal_PreVail_Productivity_Report" xml:space="preserve">
+    <value>Internal PreVail Productivity Report</value>
+  </data>
+  <data name="Operators" xml:space="preserve">
+    <value>Operators</value>
+  </data>
+  <data name="PreVail_Fleet_Comparison" xml:space="preserve">
+    <value>PreVail Fleet Comparison</value>
+  </data>
+  <data name="Start_Date_Time" xml:space="preserve">
+    <value>Start DateTime</value>
+  </data>
+  <data name="Severity" xml:space="preserve">
+    <value>Severity</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Analyst_Comments_Recommendations" xml:space="preserve">
+    <value>Analyst Comments/Recommendations</value>
+  </data>
+  <data name="N1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Week_Number" xml:space="preserve">
+    <value>Week Number</value>
+  </data>
+  <data name="Shift1" xml:space="preserve">
+    <value>Shift1</value>
+  </data>
+  <data name="Shift2" xml:space="preserve">
+    <value>Shift2</value>
+  </data>
+  <data name="Shift3" xml:space="preserve">
+    <value>Shift3</value>
+  </data>
+  <data name="Average_All_Shovels" xml:space="preserve">
+    <value>Average All Shovels</value>
+  </data>
+  <data name="Cycles_Speed" xml:space="preserve">
+    <value>Cycles Speed</value>
+  </data>
+  <data name="Performance_Factors_Overview" xml:space="preserve">
+    <value>Performance Factors  Overview</value>
+  </data>
+  <data name="Trips_per_Operating_hour" xml:space="preserve">
+    <value>Trips per Operating hour</value>
+  </data>
+  <data name="Biweekly" xml:space="preserve">
+    <value>Biweekly</value>
+  </data>
+  <data name="Daily_Report_for" xml:space="preserve">
+    <value>Daily Report for</value>
+  </data>
+  <data name="Monthly_Report_for" xml:space="preserve">
+    <value>Monthly Report for </value>
+  </data>
+  <data name="Prevail_Remote_Health_Management" xml:space="preserve">
+    <value>Prevail Remote Health Management </value>
+  </data>
+  <data name="Prevail_Remote_Health_Management_Daily_Report_for" xml:space="preserve">
+    <value>Prevail Remote Health Management Daily Report for </value>
+  </data>
+  <data name="Prevail_Remote_Health_Management_Monthly_Report_for" xml:space="preserve">
+    <value>Prevail Remote Health Management Monthly Report for </value>
+  </data>
+  <data name="Report_for" xml:space="preserve">
+    <value>Report for </value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="Operator_Score_Card_Report_for" xml:space="preserve">
+    <value>Operator Score Card Report for</value>
+  </data>
+  <data name="Tons_Per_Shift" xml:space="preserve">
+    <value>Tons Per Shift</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>Copyright Joy Global Inc. 2013</value>
+  </data>
+  <data name="Coal" xml:space="preserve">
+    <value>Coal</value>
+  </data>
+  <data name="Metal" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="Tar_Sand" xml:space="preserve">
+    <value>Tar Sand</value>
+  </data>
+  <data name="Fsn_Date" xml:space="preserve">
+    <value>FSN Date</value>
+  </data>
+  <data name="Average_All_Teams" xml:space="preserve">
+    <value>Average All Teams</value>
+  </data>
+  <data name="Hours_Per_Shift" xml:space="preserve">
+    <value>Hours per Shift</value>
+  </data>
+  <data name="Non_Productive_Time" xml:space="preserve">
+    <value>Non Productive Time</value>
+  </data>
+  <data name="Team_Name" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="Team_Productivity" xml:space="preserve">
+    <value>Team Productivity</value>
+  </data>
+  <data name="Team_Utilization" xml:space="preserve">
+    <value>Team Utilization</value>
+  </data>
+  <data name="Biweekly_Report_For" xml:space="preserve">
+    <value>Biweekly report for</value>
+  </data>
+  <data name="Weekly_Report_For" xml:space="preserve">
+    <value>Weekly report for</value>
+  </data>
+  <data name="Daily_Faults_and_Warnings_Report_for" xml:space="preserve">
+    <value>Daily Faults and Warnings Report for</value>
+  </data>
+  <data name="Downtime_Mins" xml:space="preserve">
+    <value>Downtime(Mins)</value>
+  </data>
+  <data name="Last_Occurred" xml:space="preserve">
+    <value>Last Occurred</value>
+  </data>
+  <data name="Machine" xml:space="preserve">
+    <value>Machine</value>
+  </data>
+  <data name="Mine_Time" xml:space="preserve">
+    <value>Mine Time</value>
+  </data>
+  <data name="SlackHoistRopesDetected" xml:space="preserve">
+    <value>Slack Hoist Ropes Detected</value>
+  </data>
+  <data name="Warning_Analysis" xml:space="preserve">
+    <value>Warning Analysis</value>
+  </data>
+  <data name="Copper" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="Diamond" xml:space="preserve">
+    <value>Diamond</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Iron_Ore" xml:space="preserve">
+    <value>Iron Ore</value>
+  </data>
+  <data name="Oil_Sands" xml:space="preserve">
+    <value>Oil Sands</value>
+  </data>
+  <data name="CommentDate" xml:space="preserve">
+    <value>Comment Date</value>
+  </data>
+  <data name="OperatingPracticeComment" xml:space="preserve">
+    <value>Operating Practice Comment</value>
+  </data>
+  <data name="PreVail_Condition_Based_Maintenance" xml:space="preserve">
+    <value>PreVail Condition Based Maintenance</value>
+  </data>
+  <data name="Event_Counts_per_100Cycles" xml:space="preserve">
+    <value>Event Counts/100 Cycles</value>
+  </data>
+  <data name="AutoBrakeSet" xml:space="preserve">
+    <value>Auto Brake Set</value>
+  </data>
+  <data name="Non_Productive" xml:space="preserve">
+    <value>Non Productive</value>
+  </data>
+  <data name="Shift_Report_with_start_and_end_time_for_the_shift" xml:space="preserve">
+    <value>Shift Report with the start and end time for the shift</value>
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="Downtime" xml:space="preserve">
+    <value>Downtime (min)</value>
+  </data>
+  <data name="Engineering_Report_For" xml:space="preserve">
+    <value>Engineering Report for</value>
+  </data>
+  <data name="Duration_hr" xml:space="preserve">
+    <value>Duration (hr)</value>
+  </data>
+  <data name="Box_height" xml:space="preserve">
+    <value>Box height 50%</value>
+  </data>
+  <data name="Daily_Average_Lost_Production_Hr" xml:space="preserve">
+    <value>Daily Average Lost Production (Hr)</value>
+  </data>
+  <data name="Lost_Production" xml:space="preserve">
+    <value>Lost Production</value>
+  </data>
+  <data name="Daily_Average_Lost_Production_Tons" xml:space="preserve">
+    <value>Daily Average Lost Production (Tons)</value>
+  </data>
+  <data name="Best_Shovel" xml:space="preserve">
+    <value>Best Shovel</value>
+  </data>
+  <data name="Operator_Stop" xml:space="preserve">
+    <value>Operator Stop</value>
+  </data>
+  <data name="Total_Non_Productive_Time" xml:space="preserve">
+    <value>Total Non-Productive Time</value>
+  </data>
+  <data name="Wait_For_Truck" xml:space="preserve">
+    <value>Wait for Truck</value>
+  </data>
+  <data name="Percent_Difference" xml:space="preserve">
+    <value>%Difference</value>
+  </data>
+  <data name="Seven_Day_Average" xml:space="preserve">
+    <value>7 Day Average</value>
+  </data>
+  <data name="Team_Comparison" xml:space="preserve">
+    <value>Team Comparison</value>
+  </data>
+  <data name="Lost_Production_Per_Shift" xml:space="preserve">
+    <value>Lost Production per Shift  </value>
+  </data>
+  <data name="Time_Lost_per_Shovel_hr" xml:space="preserve">
+    <value>Time Lost (hr/Shovel)</value>
+  </data>
+  <data name="HOURS_UNIT" xml:space="preserve">
+    <value>(HOURS)</value>
+  </data>
+  <data name="HOURS" xml:space="preserve">
+    <value>HOURS</value>
+  </data>
+  <data name="HOURS_METERS" xml:space="preserve">
+    <value>HOURS METERS</value>
+  </data>
+  <data name="Runtime_Hours" xml:space="preserve">
+    <value>Runtime Hours</value>
+  </data>
+  <data name="Thousands_of_Tonnes" xml:space="preserve">
+    <value>Thousands of Tonnes</value>
+  </data>
+  <data name="Thousands_of_Tons" xml:space="preserve">
+    <value>Thousands of Tons</value>
+  </data>
+  <data name="Crowd" xml:space="preserve">
+    <value>Crowd</value>
+  </data>
+  <data name="Hoist" xml:space="preserve">
+    <value>Hoist</value>
+  </data>
+  <data name="Swing" xml:space="preserve">
+    <value>Swing</value>
+  </data>
+  <data name="Propel1" xml:space="preserve">
+    <value>Propel</value>
+  </data>
+  <data name="Run1" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="Vibration_File_Processing_Logging_Report_for" xml:space="preserve">
+    <value>Vibration File Processing Logging Report for</value>
+  </data>
+  <data name="Operating_Practices_Events_Summary" xml:space="preserve">
+    <value>Operating Practices Events Summary</value>
+  </data>
+  <data name="Downtime_Hours" xml:space="preserve">
+    <value>Downtime(Hours)</value>
+  </data>
+  <data name="CorrectedFor" xml:space="preserve">
+    <value>Corrected for </value>
+  </data>
+  <data name="DigGradeExceeded" xml:space="preserve">
+    <value>Dig Grade Exceeded</value>
+  </data>
+  <data name="MineAverage" xml:space="preserve">
+    <value>Mine Average</value>
+  </data>
+  <data name="Week_Ending" xml:space="preserve">
+    <value>Week Ending</value>
+  </data>
+  <data name="Acceptable_Level" xml:space="preserve">
+    <value>Acceptable Level</value>
+  </data>
+  <data name="AlarmName" xml:space="preserve">
+    <value>Alarm Name</value>
+  </data>
+  <data name="AlarmLimit" xml:space="preserve">
+    <value>% Over Alarm Limit</value>
+  </data>
+  <data name="All_Shovels_Note" xml:space="preserve">
+    <value>All Shovels = Average of all shovels with 2 swing motors</value>
+  </data>
+  <data name="Analysis_Parameter_Alerts" xml:space="preserve">
+    <value>Analysis Patameter Alerts: At Least 1 Alarm Event in Past 7 Days (Where Parameter value Exceeds Alarm Limit)</value>
+  </data>
+  <data name="Analysis_Parameter_Alerts_WithEscalatedFaults" xml:space="preserve">
+    <value>Analysis Parameter Alerts: Current Escalated Faults(RED)</value>
+  </data>
+  <data name="Analysis_Parameter_Alerts_WithStatusChange" xml:space="preserve">
+    <value>Analysis Patameter Alerts: Current Acceptable Levels(Green) with Status Change in Previous 24 Hours</value>
+  </data>
+  <data name="CurrentValue" xml:space="preserve">
+    <value>Current Value</value>
+  </data>
+  <data name="Daily_Vibration_Analysis" xml:space="preserve">
+    <value>Daily Vibration Analysis Report for</value>
+  </data>
+  <data name="DaysInCurrentStatus" xml:space="preserve">
+    <value>Days in Current Status</value>
+  </data>
+  <data name="Fault_Escalated_byAnalysis" xml:space="preserve">
+    <value>Fault Escalated by Analyst, Maintenance Action Required</value>
+  </data>
+  <data name="Elevated_In_Last_Day" xml:space="preserve">
+    <value>'Elevated' Alarm Count in Last 1  Day</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MeasurementType" xml:space="preserve">
+    <value>Measurement Type(Std/PV)</value>
+  </data>
+  <data name="Number_With_ChangedToAcceptable" xml:space="preserve">
+    <value>NUMBER OF ALERT STATUS CHANGES TO ACCEPTABLE SINCE PREVIOUS DAY</value>
+  </data>
+  <data name="Number_With_ChangedToElevated" xml:space="preserve">
+    <value>NUMBER OF ALERT STATUS CHANGES TO ELEVATED SINCE PREVIOUS DAY</value>
+  </data>
+  <data name="Of_Points_With_AllAcceptable" xml:space="preserve">
+    <value>% OF POINTS WITH ALL ACCEPTABLE LEVELS:'A' STATUS</value>
+  </data>
+  <data name="PreviousDayStatus" xml:space="preserve">
+    <value>Previous Day Status</value>
+  </data>
+  <data name="Recommend_Validation_Analyst_Review" xml:space="preserve">
+    <value>Recommend Vibration Analyst Review</value>
+  </data>
+  <data name="SpectrumOrWaveform" xml:space="preserve">
+    <value>Spectrum or Waveform Parameter</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Total_Number_Of_Level" xml:space="preserve">
+    <value>TOTAL NO. ALERTS AT ELEVATED LEVEL:'B' STATUS</value>
+  </data>
+  <data name="DateOfAlertEscalation" xml:space="preserve">
+    <value>Date of Alert Escalation</value>
+  </data>
+  <data name="Elevated_In_7_Day" xml:space="preserve">
+    <value>'Elevated' Alarm Count in Last 7 Days</value>
+  </data>
+  <data name="Calculated_Using_Payload" xml:space="preserve">
+    <value>Calculated using payload</value>
+  </data>
+  <data name="Calculated_Using_Target_Payload" xml:space="preserve">
+    <value>Calculated using target payload</value>
+  </data>
+  <data name="Cycle_Duration" xml:space="preserve">
+    <value>Cycle Duration</value>
+  </data>
+  <data name="Dipper_Load" xml:space="preserve">
+    <value>Dipper Load</value>
+  </data>
+  <data name="Dipper_Load_Metric" xml:space="preserve">
+    <value>Dipper Load Metric</value>
+  </data>
+  <data name="Dipper_Local_Time" xml:space="preserve">
+    <value>Dipper Local Time</value>
+  </data>
+  <data name="Dipper_UTC_Time" xml:space="preserve">
+    <value>Dipper UTC Time</value>
+  </data>
+  <data name="Machine_Name" xml:space="preserve">
+    <value>Machine Name</value>
+  </data>
+  <data name="Auto_Brake_Set100_cycles" xml:space="preserve">
+    <value>Auto Brake Set/100 cycles</value>
+  </data>
+  <data name="Dig_Grade_Exceeded100_cycles" xml:space="preserve">
+    <value>Dig Grade Exceeded/100 cycles</value>
+  </data>
+  <data name="Slack_Hoist_Ropes_Detected100_cycles" xml:space="preserve">
+    <value>Slack Hoist Ropes Detected/100 cycles</value>
+  </data>
+  <data name="Elevated_Level" xml:space="preserve">
+    <value>Elevated Level</value>
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+</root>
